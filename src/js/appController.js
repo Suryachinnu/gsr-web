@@ -34,7 +34,7 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
       this.mdScreen = ResponsiveKnockoutUtils.createMediaQueryObservable(mdQuery);
 
       let navData = [
-        { path: '', redirect: 'dashboard' },
+        { path: '', redirect: 'home' },
         { path: 'home', detail: { label: 'Home', iconClass: 'oj-ux-ico-bar-chart' } },
         { path: 'about', detail: { label: 'About Us', iconClass: 'oj-ux-ico-fire' } },
         { path: 'focus', detail: { label: 'Our Focus Area', iconClass: 'oj-ux-ico-contact-group' } },
