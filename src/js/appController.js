@@ -38,22 +38,29 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
         { path: 'home', detail: { label: 'Home', iconClass: 'oj-ux-ico-bar-chart' } },
         { path: 'about', detail: { label: 'About Us', iconClass: 'oj-ux-ico-fire' } },
         { path: 'focus', detail: { label: 'Our Focus Area', iconClass: 'oj-ux-ico-contact-group' } },
-        { path: 'contact', detail: { label: 'Contact Us', iconClass: 'oj-ux-ico-information-s' } }
+        { path: 'contact', detail: { label: 'Contact Us', iconClass: 'oj-ux-ico-information-s' } },
+        { path: 'joinus', detail: { label: 'Join Us', iconClass: 'oj-ux-ico-information-s' } }
+      ];
+      let navData1 = [
+        { path: 'home', detail: { label: 'Home', iconClass: 'oj-ux-ico-bar-chart' } },
+        { path: 'about', detail: { label: 'About Us', iconClass: 'oj-ux-ico-fire' } },
+        { path: 'focus', detail: { label: 'Our Focus Area', iconClass: 'oj-ux-ico-contact-group' } },
+        { path: 'contact', detail: { label: 'Contact Us', iconClass: 'oj-ux-ico-information-s' } },
       ];
 
       // Router setup
-      let router = new CoreRouter(navData, {
+      this.router = new CoreRouter(navData, {
         urlAdapter: new UrlParamAdapter()
       });
-      router.sync();
+      this.router.sync();
 
-      this.moduleAdapter = new ModuleRouterAdapter(router);
+      this.moduleAdapter = new ModuleRouterAdapter(this.router);
 
-      this.selection = new KnockoutRouterAdapter(router);
+      this.selection = new KnockoutRouterAdapter(this.router);
 
       // Setup the navDataProvider with the routes, excluding the first redirected
       // route.
-      this.navDataProvider = new ArrayDataProvider(navData.slice(1), {keyAttributes: "path"});
+      this.navDataProvider = new ArrayDataProvider(navData1.slice(1), {keyAttributes: "path"});
 
       // Drawer
       // Close offcanvas on medium and larger screens
@@ -68,6 +75,9 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
         this.navDrawerOn = true;
         return OffcanvasUtils.toggle(this.drawerParams);
       }
+      this.routeToPage = () => {
+        this.router.go({ path: 'joinus' });
+      };
 
       // Header
       // Application Name used in Branding Area
