@@ -5,7 +5,7 @@
     Description:
         This is where any of your application specific styles should be included
 */
-
+@import 'home.css';
 .sendOffScreen {
   position: absolute;
   left: -10000px;
@@ -44,40 +44,3 @@ a.oj-navigationlist-item-content > .oj-navigationlist-item-label {
   height: 45px;
   background-image: linear-gradient(to left , rgb(6, 109, 156),rgb(4, 124, 124),rgb(53, 187, 136));
 }
-/* Film Strip CSS */
-.demo-filmstrip {
-  height: 35rem;
-}
-
-.demo-filmstrip-item {
-  box-sizing: border-box;
-  width: 10rem;
-  height: 10rem;
-  text-align: center;
-}
-
-.demo-filmstrip-wrapper {
-  display: inline-block;
-}
-
-.demo-paging-container {
-  position: absolute;
-  top: 50%;
-  -ms-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
-}
-
-html:not([dir="rtl"]) .demo-paging-container {
-  right: 0;
-}
-
-html[dir="rtl"] .demo-paging-container {
-  left: 0;
-}
-
-.demo-outer-container {
-  display: inline-block;
-  position: relative;
-  padding-inline-end: 2.5rem;
-}
-/* End of Film Strip CSS */

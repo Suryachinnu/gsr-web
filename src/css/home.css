@@ -1,0 +1,48 @@
+/* Film Strip CSS */
+.filmstrip {
+    height: 10rem;
+}
+  
+.filmstrip-item {
+    box-sizing: border-box;
+    width: auto;
+    height: 10rem;
+}
+  /* Medium and large Screens */
+@media screen and (min-width: 769px) {
+    .filmstrip-item {
+        width: 429px;
+    }
+}
+.filmstrip-wrapper {
+    display: inline-block;
+}
+  
+.paging-container {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+}
+  
+html:not([dir="rtl"]) .paging-container {
+    right: 0;
+}
+  
+html[dir="rtl"] .paging-container {
+    left: 0;
+}
+  
+.film__strip__outer__container {
+    display: inline-block;
+    position: relative;
+    padding-inline-end: 2.5rem;
+}
+/* End of Film Strip CSS */
+.brand__name {
+    background: linear-gradient(-339deg ,rgba(0, 180, 177, 1) 0%,rgba(2, 108, 168, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+  

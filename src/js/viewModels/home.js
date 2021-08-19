@@ -15,7 +15,7 @@ define(['../accUtils', 'knockout', 'ojs/ojcontext', 'ojs/ojknockout', 'ojs/ojfil
       
       that.pagingModel = ko.observable(null);
       that.chemicals = [
-            { name: 'Hydrogen' },
+            { name: 'Augmenting Healthcare, Education, Employment with dedicated initiatives and service' },
             { name: 'Helium' },
             { name: 'Lithium' },
             { name: 'Beryllium' }
