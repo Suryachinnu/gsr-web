@@ -60,7 +60,7 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
 
       // Setup the navDataProvider with the routes, excluding the first redirected
       // route.
-      this.navDataProvider = new ArrayDataProvider(navData1.slice(1), {keyAttributes: "path"});
+      this.navDataProvider = new ArrayDataProvider(navData1, {keyAttributes: "path"});
 
       // Drawer
       // Close offcanvas on medium and larger screens
