@@ -35,10 +35,10 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
 
       let navData = [
         { path: '', redirect: 'dashboard' },
-        { path: 'dashboard', detail: { label: 'Dashboard', iconClass: 'oj-ux-ico-bar-chart' } },
-        { path: 'incidents', detail: { label: 'Incidents', iconClass: 'oj-ux-ico-fire' } },
-        { path: 'customers', detail: { label: 'Customers', iconClass: 'oj-ux-ico-contact-group' } },
-        { path: 'about', detail: { label: 'About', iconClass: 'oj-ux-ico-information-s' } }
+        { path: 'home', detail: { label: 'Home', iconClass: 'oj-ux-ico-bar-chart' } },
+        { path: 'about', detail: { label: 'About Us', iconClass: 'oj-ux-ico-fire' } },
+        { path: 'focus', detail: { label: 'Our Focus Area', iconClass: 'oj-ux-ico-contact-group' } },
+        { path: 'contact', detail: { label: 'Contact Us', iconClass: 'oj-ux-ico-information-s' } }
       ];
 
       // Router setup
@@ -76,12 +76,13 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
       this.userLogin = ko.observable("john.hancock@oracle.com");
 
       // Footer
+          
       this.footerLinks = [
-        {name: 'About Oracle', linkId: 'aboutOracle', linkTarget:'http://www.oracle.com/us/corporate/index.html#menu-about'},
-        { name: "Contact Us", id: "contactUs", linkTarget: "http://www.oracle.com/us/corporate/contact/index.html" },
-        { name: "Legal Notices", id: "legalNotices", linkTarget: "http://www.oracle.com/us/legal/index.html" },
-        { name: "Terms Of Use", id: "termsOfUse", linkTarget: "http://www.oracle.com/us/legal/terms/index.html" },
-        { name: "Your Privacy Rights", id: "yourPrivacyRights", linkTarget: "http://www.oracle.com/us/legal/privacy/index.html" },
+        {name: 'Dr. GSR Charitable Trust', linkId: 'aboutTrust', linkTarget:'#'},
+        { name: "Privacy Statement", id: "privacyStmt", linkTarget: "#" },
+        { name: "Disclaimer and Cookie Statement", id: "disccookie", linkTarget: "#" },
+        { name: "Disclosures", id: "disclosure", linkTarget: "#" },
+        { name: "Notices", id: "notices", linkTarget: "#" },
       ];
      }
      // release the application bootstrap busy state

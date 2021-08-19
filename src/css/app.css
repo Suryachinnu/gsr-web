@@ -14,3 +14,33 @@
   height: 1px;
   overflow: hidden;
 }
+.gsr-icon {
+  width: 137px !important;
+  height: 60px !important;
+}
+.gsr-icon:before {
+  content: url(images/gsr_logo.svg);
+}
+.oj-navigationlist-item.oj-selected {
+  border-color: rgba(0, 81, 149, 1);
+}
+.oj-selected > a.oj-navigationlist-item-content > .oj-navigationlist-item-label {
+  color: rgba(20, 94, 150, 1);
+}
+a.oj-navigationlist-item-content > .oj-navigationlist-item-label {
+  color: rgba(20, 94, 150, 1);
+}
+.oj-navigationlist-horizontal .oj-navigationlist-item.oj-hover:not(.oj-selected) a.oj-navigationlist-item-content > .oj-navigationlist-item-label {
+  color: rgba(20, 94, 150, 1);
+}
+
+.oj-navigationlist-horizontal .oj-navigationlist-item.oj-hover:not(.oj-selected) .oj-navigationlist-item-icon {
+  color:  rgba(20, 94, 150, 1);
+}
+
+.join__us > button.oj-button-button {
+  border-radius: 1.32rem;
+  width: 125px;
+  height: 45px;
+  background-image: linear-gradient(to left , rgb(6, 109, 156),rgb(4, 124, 124),rgb(53, 187, 136));
+}
