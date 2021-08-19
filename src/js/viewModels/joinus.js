@@ -6,11 +6,11 @@
  * @ignore
  */
 /*
- * Your contact ViewModel code goes here
+ * Your join us ViewModel code goes here
  */
 define(['../accUtils'],
  function(accUtils) {
-    function ContactViewModel() {
+    function JoinUsViewModel() {
       // Below are a set of the ViewModel methods invoked by the oj-module component.
       // Please reference the oj-module jsDoc for additional information.
 
@@ -23,8 +23,8 @@ define(['../accUtils'],
        * after being disconnected.
        */
       this.connected = () => {
-        accUtils.announce('Contact page loaded.', 'assertive');
-        document.title = "Contact";
+        accUtils.announce('Join Us page loaded.', 'assertive');
+        document.title = "Join Us";
         // Implement further logic if needed
       };
 
@@ -49,6 +49,6 @@ define(['../accUtils'],
      * return a constructor for the ViewModel so that the ViewModel is constructed
      * each time the view is displayed.
      */
-    return ContactViewModel;
+    return JoinUsViewModel;
   }
 );

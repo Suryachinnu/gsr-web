@@ -8,39 +8,47 @@
 /*
  * Your home ViewModel code goes here
  */
-define(['../accUtils'],
- function(accUtils) {
+define(['../accUtils', 'knockout', 'ojs/ojcontext', 'ojs/ojknockout', 'ojs/ojfilmstrip', 'ojs/ojpagingcontrol'],
+ function(accUtils, ko, Context) {
     function HomeViewModel() {
-      // Below are a set of the ViewModel methods invoked by the oj-module component.
-      // Please reference the oj-module jsDoc for additional information.
-
-      /**
-       * Optional ViewModel method invoked after the View is inserted into the
-       * document DOM.  The application can put logic that requires the DOM being
-       * attached here.
-       * This method might be called multiple times - after the View is created
-       * and inserted into the DOM and after the View is reconnected
-       * after being disconnected.
-       */
-      this.connected = () => {
+      var that = this;
+      
+      that.pagingModel = ko.observable(null);
+      that.chemicals = [
+            { name: 'Hydrogen' },
+            { name: 'Helium' },
+            { name: 'Lithium' },
+            { name: 'Beryllium' }
+            
+        ];
+      that.connected = () => {
         accUtils.announce('Home page loaded.', 'assertive');
         document.title = "Home";
+        var filmStrip = document.getElementById('filmStrip');
+          var busyContext = Context.getContext(filmStrip).getBusyContext();
+          busyContext.whenReady().then(function () {
+            that.pagingModel(filmStrip.getPagingModel());
+        });
         // Implement further logic if needed
       };
-
+      that.getItemInitialDisplay = function(index)
+      {
+        return index < 1 ? '' : 'none';
+      };
       /**
        * Optional ViewModel method invoked after the View is disconnected from the DOM.
        */
-      this.disconnected = () => {
+      that.disconnected = () => {
         // Implement if needed
+        
       };
 
       /**
        * Optional ViewModel method invoked after transition to the new View is complete.
        * That includes any possible animation between the old and the new View.
        */
-      this.transitionCompleted = () => {
-        // Implement if needed
+      that.transitionCompleted = () => {
+        
       };
     }
 
