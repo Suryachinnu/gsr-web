@@ -1,0 +1,700 @@
+.gsr-focus-wrapper {
+    margin-top: 60px;
+
+}
+
+.gsr-focus-wrapper .gsr-content{
+    box-sizing: border-box;
+    width: 70%;
+    padding: 30px;
+    font-size: 18px;
+    position: relative;
+    margin-left: 327px; ;
+    background-color:  rgba(0, 180, 177, 1);
+    /* background: linear-gradient( 
+    141deg
+    , rgb(6, 130, 187) 0%, rgb(0, 81, 149) 100%); */
+    color: rgb(255, 255, 255, 1);
+}
+
+.gsr-content {
+/* margin-top: 144px; */
+    position: absolute;
+    margin-top: 144px;
+    margin-left: 327px;
+    height: 462px;
+    width: 1003px;
+    background-color: rgba(0, 180, 177, 1);
+
+}
+
+.gsr-focus-wrapper .gsr-content .content{
+    height: 154px;
+    padding-right: 44px;
+    padding-bottom: 150px;
+    padding-top: 56px;
+    padding-left: 334px;
+}
+
+.gsr-focus-wrapper .img-block{
+    position: absolute;
+    top: 260px;
+    margin-left: 111px;
+    height: 837px;
+    width: 100%;
+
+}
+
+.gsr-focus-wrapper .img-block::before{
+    display: block;
+    width: 20%;
+    padding-top: 0%;
+    content: "";
+}
+
+.gsr-focus-wrapper .img-block .img-span{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.gsr-focus-wrapper .img-block .img-span .img-bg{
+    position: absolute;
+    top: 0px;
+    width: 40%;
+    height: 477px;
+    background-image: url('../css/images/focus_1.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+    bottom: 0px;
+}
+
+.gsr-focus-wrapper .img-block .img-span img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gsr-focus {
+    margin-top: 0px;
+    display: flex;
+}
+
+.gsr-focus-health {
+    margin-top: 247px;
+    margin-left: 126px;
+    height: 322px;
+    width: 546px;
+}
+
+.gsr-health{
+    display: flex;
+}
+
+.gsr-focus-health-image {
+    position: absolute;
+    top: 900px;
+    left: 748px;
+    height: 674px;
+    width: 565px;
+}
+
+.gsr-focus-health-image .img-block{
+    position: relative;  
+}
+
+
+.gsr-focus-health-image .img-block::before{
+    display: block;
+    width: 100%;
+    padding-top: 30%;
+    content: "";
+}
+
+.gsr-focus-health-image .img-block .img-span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.gsr-focus-health-image .img-block .img-span .img-bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 674px;
+    width: 565px;
+    background-image: url('../css/images/focus_2.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+
+
+.gsr-focus-health-image .img-block .img-span img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.gsr-focus .gsr-focus-health .gsr-focus-health-content {
+    margin-top: 20px;
+}
+
+.gsr-education {
+    display: flex;
+    top: 1676px;
+}
+
+.gsr-focus-education-image {
+    position: absolute;
+    margin-top: 20px;
+    left: 110px;
+    height: 674px;
+    width: 565px;
+}
+
+.gsr-focus-education-image .img-block{
+    position: relative;  
+}
+
+.gsr-focus-education-image .img-block::before{
+    display: block;
+    width: 100%;
+    padding-top: 30%;
+    content: "";
+}
+
+.gsr-focus-education-image .img-block .img-span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.gsr-focus-education-image .img-block .img-span .img-bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 674px;
+    width: 565px;
+    background-image: url('../css/images/focus_3.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+
+
+.gsr-focus-education-image .img-block .img-span img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gsr-focus-education-content {
+    position: absolute;
+    top: 1700px;
+    left: 765px;
+    height: 434px;
+    width: 562px;
+}
+
+.gsr-focus-health-content .gsr-focus-content{
+    width: 20%;
+}
+
+.gsr-employability{
+    display: flex;
+}
+
+.gsr-focus-employability{
+    position: absolute;
+    top: 2300px;
+    left: 126px;
+    height: 265px;
+    width: 546px;
+}
+
+.gsr-focus-employability-image {
+    position: absolute;
+    top: 2094px;
+    left: 748px;
+    height: 674px;
+    width: 565px;  
+}
+
+.gsr-focus-employability-image .img-block{
+    position: relative;  
+}
+
+.gsr-focus-employability-image .img-block::before{
+    display: block;
+    width: 100%;
+    padding-top: 30%;
+    content: "";
+}
+
+.gsr-focus-employability-image .img-block .img-span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.gsr-focus-employability-image .img-block .img-span .img-bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 674px;
+    width: 565px;
+    background-image: url('../css/images/focus_4.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+
+
+.gsr-focus-employability-image .img-block .img-span img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gsr-letter{
+    left: 108px;
+    height: 1173px;
+    width: 1231px;
+    display: flex;
+}
+
+.gsr-focus-letter-image {
+    position: absolute;
+    top: 2885px;
+    left: 108px;
+    height: 565px;
+    width: 564px;
+}
+
+.gsr-focus-letter-image .img-block{
+    position: relative;  
+}
+
+.gsr-focus-letter-image .img-block::before{
+    display: block;
+    width: 100%;
+    padding-top: 30%;
+    content: "";
+}
+
+.gsr-focus-letter-image .img-block .img-span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.gsr-focus-letter-image .img-block .img-span .img-bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 674px;
+    width: 565px;
+    background-image: url('../css/images/focus_5.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+
+
+.gsr-focus-letter-image .img-block .img-span img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.gsr-focus-letter-content{
+    position: absolute;
+    top: 2870px;
+    left: 765px;
+    height: 1161px;
+    width: 574px;  
+}
+
+.gsr-focus-letter-content .gsr-content{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 1);
+}
+
+.gsr-focus-letter-content .gsr-letter-p{
+    color: rgba(0, 180, 177, 1);
+    font-size: 18px;
+    font-weight: bold;
+}
+.gsr-focus-wrapper {
+    margin-top: 60px;
+
+}
+
+.gsr-focus-wrapper .gsr-content{
+    box-sizing: border-box;
+    width: 70%;
+    padding: 30px;
+    font-size: 18px;
+    position: relative;
+    margin-left: 327px; ;
+    background-color:  rgba(0, 180, 177, 1);
+    /* background: linear-gradient( 
+    141deg
+    , rgb(6, 130, 187) 0%, rgb(0, 81, 149) 100%); */
+    color: rgb(255, 255, 255, 1);
+}
+
+.gsr-content {
+/* margin-top: 144px; */
+    position: absolute;
+    margin-top: 144px;
+    margin-left: 327px;
+    height: 462px;
+    width: 1003px;
+    background-color: rgba(0, 180, 177, 1);
+
+}
+
+.gsr-focus-wrapper .gsr-content .content{
+    height: 154px;
+    padding-right: 44px;
+    padding-bottom: 150px;
+    padding-top: 56px;
+    padding-left: 334px;
+}
+
+.gsr-focus-wrapper .img-block{
+    position: absolute;
+    top: 260px;
+    margin-left: 111px;
+    height: 837px;
+    width: 100%;
+
+}
+
+.gsr-focus-wrapper .img-block::before{
+    display: block;
+    width: 20%;
+    padding-top: 0%;
+    content: "";
+}
+
+.gsr-focus-wrapper .img-block .img-span{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.gsr-focus-wrapper .img-block .img-span .img-bg{
+    position: absolute;
+    top: 0px;
+    width: 40%;
+    height: 477px;
+    background-image: url('../css/images/focus_1.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+    bottom: 0px;
+}
+
+.gsr-focus-wrapper .img-block .img-span img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gsr-focus {
+    margin-top: 0px;
+    display: flex;
+}
+
+.gsr-focus-health {
+    margin-top: 247px;
+    margin-left: 126px;
+    height: 322px;
+    width: 546px;
+}
+
+.gsr-health{
+    display: flex;
+}
+
+.gsr-focus-health-image {
+    position: absolute;
+    top: 900px;
+    left: 748px;
+    height: 674px;
+    width: 565px;
+}
+
+.gsr-focus-health-image .img-block{
+    position: relative;  
+}
+
+
+.gsr-focus-health-image .img-block::before{
+    display: block;
+    width: 100%;
+    padding-top: 30%;
+    content: "";
+}
+
+.gsr-focus-health-image .img-block .img-span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.gsr-focus-health-image .img-block .img-span .img-bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 674px;
+    width: 565px;
+    background-image: url('../css/images/focus_2.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+
+
+.gsr-focus-health-image .img-block .img-span img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.gsr-focus .gsr-focus-health .gsr-focus-health-content {
+    margin-top: 20px;
+}
+
+.gsr-education {
+    display: flex;
+    top: 1676px;
+}
+
+.gsr-focus-education-image {
+    position: absolute;
+    margin-top: 20px;
+    left: 110px;
+    height: 674px;
+    width: 565px;
+}
+
+.gsr-focus-education-image .img-block{
+    position: relative;  
+}
+
+.gsr-focus-education-image .img-block::before{
+    display: block;
+    width: 100%;
+    padding-top: 30%;
+    content: "";
+}
+
+.gsr-focus-education-image .img-block .img-span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.gsr-focus-education-image .img-block .img-span .img-bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 674px;
+    width: 565px;
+    background-image: url('../css/images/focus_3.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+
+
+.gsr-focus-education-image .img-block .img-span img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gsr-focus-education-content {
+    position: absolute;
+    top: 1700px;
+    left: 765px;
+    height: 434px;
+    width: 562px;
+}
+
+.gsr-focus-health-content .gsr-focus-content{
+    width: 20%;
+}
+
+.gsr-employability{
+    display: flex;
+}
+
+.gsr-focus-employability{
+    position: absolute;
+    top: 2300px;
+    left: 126px;
+    height: 265px;
+    width: 546px;
+}
+
+.gsr-focus-employability-image {
+    position: absolute;
+    top: 2094px;
+    left: 748px;
+    height: 674px;
+    width: 565px;  
+}
+
+.gsr-focus-employability-image .img-block{
+    position: relative;  
+}
+
+.gsr-focus-employability-image .img-block::before{
+    display: block;
+    width: 100%;
+    padding-top: 30%;
+    content: "";
+}
+
+.gsr-focus-employability-image .img-block .img-span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.gsr-focus-employability-image .img-block .img-span .img-bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 674px;
+    width: 565px;
+    background-image: url('../css/images/focus_4.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+
+
+.gsr-focus-employability-image .img-block .img-span img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gsr-letter{
+    left: 108px;
+    height: 1173px;
+    width: 1231px;
+    display: flex;
+}
+
+.gsr-focus-letter-image {
+    position: absolute;
+    top: 2885px;
+    left: 108px;
+    height: 565px;
+    width: 564px;
+}
+
+.gsr-focus-letter-image .img-block{
+    position: relative;  
+}
+
+.gsr-focus-letter-image .img-block::before{
+    display: block;
+    width: 100%;
+    padding-top: 30%;
+    content: "";
+}
+
+.gsr-focus-letter-image .img-block .img-span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.gsr-focus-letter-image .img-block .img-span .img-bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 674px;
+    width: 565px;
+    background-image: url('../css/images/focus_5.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+
+
+.gsr-focus-letter-image .img-block .img-span img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.gsr-focus-letter-content{
+    position: absolute;
+    top: 2870px;
+    left: 765px;
+    height: 1161px;
+    width: 574px;  
+}
+
+.gsr-focus-letter-content .gsr-content{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 1);
+}
+
+.gsr-focus-letter-content .gsr-letter-p{
+    color: rgba(0, 180, 177, 1);
+    font-size: 18px;
+    font-weight: bold;
+}
