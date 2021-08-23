@@ -1,5 +1,18 @@
 .join__hand__image{
-    content: url(images/hands.png);
-    background-position: 50% 50%;
-    background-size: cover;
+    
+    background-image: url(images/hands.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    height: 600px;
+    background-position: center;
+}
+@media screen and (max-width: 1024px) {
+    .join__hand__image{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .join__hand__image{
+        height: 300px;
+    }
 }
