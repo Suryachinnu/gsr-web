@@ -8,9 +8,25 @@
 /*
  * Your join us ViewModel code goes here
  */
-define(['../accUtils'],
- function(accUtils) {
+define(['../accUtils', 'ojs/ojarraydataprovider', 'ojs/ojinputtext', 'ojs/ojformlayout', "ojs/ojselectsingle"],
+ function(accUtils, ArrayDataProvider) {
     function JoinUsViewModel() {
+      this.locations = [
+        { value: "KMM", label: "Khammam" },
+        { value: "HYD", label: "Hyderabad" },
+        { value: "SEC", label: "Secunderabad" }
+      ];
+      this.locationsDP = new ArrayDataProvider(this.locations, {
+          keyAttributes: "value",
+      });
+      this.roles = [
+        { value: "volunteer", label: "Volunteer" },
+        { value: "member", label: "Member" },
+        { value: "trustee", label: "Trustee" }
+      ];
+      this.rolesDP = new ArrayDataProvider(this.roles, {
+          keyAttributes: "value",
+      });
       // Below are a set of the ViewModel methods invoked by the oj-module component.
       // Please reference the oj-module jsDoc for additional information.
 

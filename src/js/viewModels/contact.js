@@ -8,7 +8,7 @@
 /*
  * Your contact ViewModel code goes here
  */
-define(['../accUtils'],
+define(['../accUtils', 'ojs/ojinputtext', 'ojs/ojformlayout'],
  function(accUtils) {
     function ContactViewModel() {
       // Below are a set of the ViewModel methods invoked by the oj-module component.

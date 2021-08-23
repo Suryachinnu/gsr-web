@@ -108,17 +108,17 @@
               
             </div>
             <div class="oj-flex-bar-end">
-              <oj-button id="chroming_button4" chroming="callToAction" class="join__us oj-sm-only-hide" on-oj-action="[[routeToPage]]">
+              <oj-button id="chroming_button5" chroming="callToAction" class="join__us oj-sm-only-hide" on-oj-action="[[routeToPage]]">
                 Join Us
             </oj-button>             
             </div>
           </div>
           
         </header>
-        <oj-module role="main" class="oj-web-applayout-content" config="[[moduleAdapter.koObservableConfig]]">
+        <oj-module role="main" class="oj-web-applayout-content" config="[[moduleAdapter.koObservableConfig]]" style="background: #FFFFFF;">
         </oj-module>
         
-        <footer class="oj-web-applayout-footer oj-sm-padding-7x-horizontal" role="contentinfo">
+        <footer class="oj-web-applayout-footer oj-sm-padding-7x-horizontal bottom__footer" role="contentinfo">
           
           <div class="oj-web-applayout-footer-item oj-text-secondary-color oj-text-sm oj-sm-padding-10x-vertical">
             Location: H.No 1-2-412/1/4, Flat no 202, Mekhala Legend 1, Gagan Mahal, Domalguda, Hyderabad, Telangana 500029
@@ -138,7 +138,7 @@
               </div>
             </div>
             <div class="oj-flex-bar-end">
-              <oj-button id="chroming_button4" chroming="callToAction" class="join__us oj-sm-only-hide" on-oj-action="[[routeToPage]]">
+              <oj-button id="chroming_button4" chroming="callToAction" class="join__us__footer oj-sm-only-hide" on-oj-action="[[routeToPage]]">
                 Join Us
             </oj-button>             
             </div>
@@ -151,7 +151,7 @@
               <oj-bind-for-each data="[[footerLinks]]">
                 <template>
                   <li>
-                    <a :id="[[$current.data.linkId]]" :href="[[$current.data.linkTarget]]">
+                    <a :id="[[$current.data.linkId]]" :href="[[$current.data.linkTarget]]" style="color: #FFFFFF;">
                       <oj-bind-text value="[[$current.data.name]]"></oj-bind-text>
                     </a>
                   </li>

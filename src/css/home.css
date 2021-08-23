@@ -1,19 +1,13 @@
 /* Film Strip CSS */
 .filmstrip {
-    height: 10rem;
+    height: 15rem;
 }
   
 .filmstrip-item {
     box-sizing: border-box;
     width: auto;
-    height: 10rem;
 }
-  /* Medium and large Screens */
-@media screen and (min-width: 769px) {
-    .filmstrip-item {
-        width: 429px;
-    }
-}
+
 .filmstrip-wrapper {
     display: inline-block;
 }
@@ -36,13 +30,28 @@ html[dir="rtl"] .paging-container {
 .film__strip__outer__container {
     display: inline-block;
     position: relative;
-    padding-inline-end: 2.5rem;
+    padding-inline-end: 10rem;
+}
+.oj-pagingcontrol-nav-dot-bullet.oj-selected, .oj-pagingcontrol-nav-dot-bullet.oj-hover {
+  background-color: #145e96;
+  border-color: #145e96;
+}
+/* Medium and large Screens */
+@media screen and (min-width: 769px) {
+  .filmstrip-item {
+      width: 500px;
+  }
+  .filmstrip {
+    height: 10rem;
+}
 }
 /* End of Film Strip CSS */
 .brand__name {
-    background: linear-gradient(-339deg ,rgba(0, 180, 177, 1) 0%,rgba(2, 108, 168, 1) 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    /* background: linear-gradient(-339deg ,rgba(0, 180, 177, 1) 0%,rgba(2, 108, 168, 1) 100%); */
+  background: -webkit-linear-gradient(-264deg, rgba(6, 155, 187, 1) 0%, rgba(0, 81, 149, 1) 100%);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-264deg, rgba(6, 155, 187, 1) 0%, rgba(0, 81, 149, 1) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
   
@@ -252,7 +261,7 @@ width: 565px;
   line-height: 26pt;
   color: #fff;
 }
-  
+
 @media (min-width: 64em){
   .content-wrapper .content1{
     width: 540px;
@@ -262,7 +271,7 @@ width: 565px;
     left: 24px;   
     -webkit-box-align: center;
     align-items: center;
-}
+  }
 }
 
 .line{
