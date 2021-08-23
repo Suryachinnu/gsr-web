@@ -1,5 +1,25 @@
-.img-bg{
+.img-bg-health{
     content: url('../css/images/focus_2.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+.img-bg-education{
+    height: 674px;
+    background-image: url('../css/images/focus_3.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+
+.img-bg-employment{
+    height: 674px;
+    background-image: url('../css/images/focus_4.png');
+    background-position: 50% 50%;
+    background-size: cover;   
+}
+
+.img-bg-letter{
+    height: 1129px;
+    background-image: url('../css/images/focus_5.png');
     background-position: 50% 50%;
     background-size: cover;   
 }
@@ -7,4 +27,96 @@
 .focus__padding-40x {
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+@media screen and (min-width: 769px) {
+    .img-bg {
+    position: absolute;
+    width: 40%;
+    height: 477px;
+    top: 285px;
+    display: initial;
+    background-image: url('../css/images/focus_1.png');
+    background-position: 50% 50%;
+    background-size: cover; 
+  }
+  
+  }
+
+/* .gsr-focus-wrapper {
+    margin-top: 100px;
+} */
+/* .gsr-focus{
+margin-top: 66px;
+height: 462px;
+} */
+
+/* .gsr-focus-wrapper .gsr-content{
+    box-sizing: border-box;
+    width: 68%;
+    padding: 30px;
+    height: 462px;
+    font-size: 18px;
+    top: 40px;
+    padding-right: 44px;
+    padding-bottom: 150px;
+    padding-top: 56px;
+    padding-left: 200px;
+    margin-left: 370px;
+    align-content: center;
+    background-color:  rgba(0, 180, 177, 1);
+    /* background: linear-gradient( 
+    141deg
+    , rgb(6, 130, 187) 0%, rgb(0, 81, 149) 100%); 
+    color: rgb(255, 255, 255, 1);
+} */
+
+
+
+.gsr-focus-wrapper .gsr-content .content{
+    height: 162px;
+    padding-right: 44px;
+    padding-bottom: 150px;
+    padding-top: 56px;
+    padding-left: 200px;
+}
+
+/* .img-bg{
+    visibility: hidden;
+} */
+.gsr-focus-wrapper .gsr-content{
+    background-color:  rgba(0, 180, 177, 1);
+    /* background: linear-gradient( 
+    141deg
+    , rgb(6, 130, 187) 0%, rgb(0, 81, 149) 100%); */
+    color: rgb(255, 255, 255, 1);
+    padding: 20px;
+}
+@media screen and (min-width: 769px) {
+        .gsr-focus-wrapper .gsr-content{
+            box-sizing: border-box;
+            width: 68%;
+            padding: 30px;
+            height: 462px;
+            font-size: 18px;
+            top: 40px;
+            padding-right: 44px;
+            padding-bottom: 150px;
+            padding-top: 56px;
+            padding-left: 200px;
+            margin-left: 370px;
+            align-content: center;
+            background-color:  rgba(0, 180, 177, 1);
+            /* background: linear-gradient( 
+            141deg
+            , rgb(6, 130, 187) 0%, rgb(0, 81, 149) 100%); */
+            color: rgb(255, 255, 255, 1);
+    }
+    .gsr-focus{
+        margin-top: 66px;
+        height: 462px;
+        }
+        .gsr-focus-wrapper {
+            margin-top: 100px;
+        }
 }
