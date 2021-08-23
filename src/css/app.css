@@ -46,7 +46,9 @@ a.oj-navigationlist-item-content > .oj-navigationlist-item-label {
   border-radius: 1.32rem;
   width: 125px;
   height: 45px;
-  background-image: linear-gradient(to left , rgb(6, 109, 156),rgb(4, 124, 124),rgb(53, 187, 136));
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(-264deg, rgba(6, 155, 187, 1) 0%, rgba(0, 81, 149, 1) 100%);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-264deg, rgba(6, 155, 187, 1) 0%, rgba(0, 81, 149, 1) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .bottom__footer {
   background: #1c92d2;  /* fallback for old browsers */
@@ -78,4 +80,15 @@ a.oj-navigationlist-item-content > .oj-navigationlist-item-label {
   height: 45px;
   background-color: #FFFFFF !important;
   color: #005195 !important;
+}
+.oj-web-applayout-header {
+  border: 0;
+}
+
+  /* Medium and large Screens */
+@media screen and (min-width: 769px) {
+  .page__padding {
+    padding-left: 143px;
+    padding-right: 110px;
+  }
 }
