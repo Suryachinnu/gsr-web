@@ -23,6 +23,7 @@ define(['../accUtils', 'ojs/ojinputtext', 'ojs/ojformlayout'],
        * after being disconnected.
        */
       this.connected = () => {
+        window.scrollTo(0,0);
         accUtils.announce('Contact page loaded.', 'assertive');
         document.title = "Contact";
         // Implement further logic if needed

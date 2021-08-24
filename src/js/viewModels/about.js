@@ -23,6 +23,7 @@ define(['../accUtils'],
        * after being disconnected.
        */
       this.connected = () => {
+        window.scrollTo(0,0);
         accUtils.announce('About page loaded.', 'assertive');
         document.title = "About";
         // Implement further logic if needed

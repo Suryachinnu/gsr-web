@@ -26,6 +26,7 @@ define(['../accUtils', 'appController', 'knockout', 'ojs/ojcontext', 'ojs/ojknoc
         document.querySelector("#dialog1").close();
       }
       that.connected = () => {
+        window.scrollTo(0,0);
         accUtils.announce('Home page loaded.', 'assertive');
         document.title = "Home";
         var filmStrip = document.getElementById('filmStrip');

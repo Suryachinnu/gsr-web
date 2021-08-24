@@ -39,6 +39,7 @@ define(['../accUtils', 'ojs/ojarraydataprovider', 'ojs/ojinputtext', 'ojs/ojform
        * after being disconnected.
        */
       this.connected = () => {
+        window.scrollTo(0,0);
         accUtils.announce('Join Us page loaded.', 'assertive');
         document.title = "Join Us";
         // Implement further logic if needed

@@ -23,6 +23,7 @@ define(['../accUtils'],
        * after being disconnected.
        */
       this.connected = () => {
+        window.scrollTo(0,0);
         accUtils.announce('Focus page loaded.', 'assertive');
         document.title = "Focus";
         // Implement further logic if needed
