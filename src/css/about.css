@@ -37,7 +37,7 @@
    -webkit-text-fill-color: transparent;
    -webkit-background-clip: text;
    margin-bottom: 30px;
-   font-family: 'Roboto Condensed', sans-serif;
+   /* font-family: 'Roboto Condensed', sans-serif; */
   }
   
   
@@ -45,7 +45,7 @@
     font-size: 15pt;
     margin-bottom: 45px;
     line-height: 25px;
-    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
   }
   
    /* .title-content{
@@ -98,7 +98,7 @@
       font-weight: 700;
       margin: 0px 0px 32px;
       color: rgb(255, 255, 255);
-      font-family: 'Roboto Condensed', sans-serif;
+      /* font-family: 'Roboto Condensed', sans-serif; */
   }
   
   .gsr-content-wrapper .gsr p{
@@ -128,7 +128,7 @@
   .content-gsr p{
    
     margin-top: 50px;
-    font-family: 'Roboto Condensed', sans-serif;
+    
   }
 .gsr-content-wrapper1{
     box-sizing: border-box;
