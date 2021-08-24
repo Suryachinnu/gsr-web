@@ -102,6 +102,11 @@ a.oj-navigationlist-item-content > .oj-navigationlist-item-label {
   border: 0;
 }
 
+.title__subheading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18pt;
+}
+
   /* Medium and large Screens */
 @media screen and (min-width: 769px) {
   .page__padding {
