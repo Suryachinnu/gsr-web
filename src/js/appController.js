@@ -75,8 +75,8 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
         this.navDrawerOn = true;
         return OffcanvasUtils.toggle(this.drawerParams);
       }
-      this.routeToPage = () => {
-        this.router.go({ path: 'joinus' });
+      this.routeToPage = (_path) => {
+        this.router.go({ path: _path });
       };
 
       // Header

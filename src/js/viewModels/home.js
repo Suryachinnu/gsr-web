@@ -8,19 +8,20 @@
 /*
  * Your home ViewModel code goes here
  */
-define(['../accUtils', 'knockout', 'ojs/ojcontext', 'ojs/ojknockout', 'ojs/ojfilmstrip', 'ojs/ojpagingcontrol'],
- function(accUtils, ko, Context) {
+define(['../accUtils', 'appController', 'knockout', 'ojs/ojcontext', 'ojs/ojknockout', 'ojs/ojfilmstrip', 'ojs/ojpagingcontrol'],
+ function(accUtils, _app, ko, Context) {
     function HomeViewModel() {
       var that = this;
-      
       that.pagingModel = ko.observable(null);
+      that.app = _app;
       that.chemicals = [
-            { name: 'Augmenting Healthcare, Education, Employment with dedicated initiatives and service' },
-            { name: 'Helium' },
-            { name: 'Lithium' },
-            { name: 'Beryllium' }
-            
-        ];
+            { name: 'Laying the foundation for a better tomorrow', link: 'about' },
+            { name: 'Change Starts with You', link: 'joinus' },
+            { name: 'Singular focus on the welfare of the nation ', link: 'focus' }];
+      that.goToPage = (event) => {
+        console.log(event)
+        that.router.go({path: 'about'});
+      }
       that.connected = () => {
         accUtils.announce('Home page loaded.', 'assertive');
         document.title = "Home";
