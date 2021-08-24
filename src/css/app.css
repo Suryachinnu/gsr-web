@@ -15,6 +15,11 @@
 /* body, html{
   font-family: 'Montserrat', sans-serif;
 } */
+
+.main{
+  max-width: 1440px;
+  margin:70px auto;
+}
 .sendOffScreen {
   position: absolute;
   left: -10000px;
