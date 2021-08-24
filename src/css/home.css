@@ -78,7 +78,6 @@ html[dir="rtl"] .paging-container {
  .wrapper{
   box-sizing: border-box;
   width: 100%;
-  max-width: 1212px;
   margin: 0px auto 64px;
   padding: 0px;
   position: relative;
@@ -88,8 +87,6 @@ html[dir="rtl"] .paging-container {
     width: 100%;
     padding: 20px 15px 0px;
     margin: 0px auto;
-    max-width: 1440px;
-    /* display: ; */
      flex-flow: row nowrap;
     -webkit-box-pack: justify;
     justify-content: space-between;
@@ -150,17 +147,6 @@ html[dir="rtl"] .paging-container {
   color: #fff;
 }
   
-@media (min-width: 64em){
-  .wrapper .content{
-    width: 500px;
-    padding: 15px;
-    position: absolute;
-    bottom: -80px;
-    left: 24px;   
-    -webkit-box-align: center;
-    align-items: center;
-}
-}
 
 
 
@@ -181,7 +167,6 @@ html[dir="rtl"] .paging-container {
  .content-wrapper{
   box-sizing: border-box;
   width: 100%;
-  max-width: 1212px;
   margin: 0px auto 64px;
   padding: 0px;
   position: relative;
@@ -262,8 +247,7 @@ html[dir="rtl"] .paging-container {
 .header{
   position: relative;
   box-sizing: border-box;
-  width: calc(100% - 40px);
-  max-width: 1220px;
+  width: 100%;
   margin:56px 0;
   position: relative;
 }
@@ -276,13 +260,14 @@ html[dir="rtl"] .paging-container {
 }
 .header div .header-content{
   width:100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 250px;
 
 }
 .header div .header-content .video-block{
-  width:85%;
-  height:450px;
+  width: 85%;
+  height: 450px;
+  z-index: 2;
+  position: relative;
   background-size: cover;
-
 }
