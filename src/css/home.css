@@ -166,7 +166,7 @@ html[dir="rtl"] .paging-container {
 
 
 .container h1{
-  background: linear-gradient(to right,rgb(6, 109, 156),rgb(4, 124, 124),rgb(53, 187, 136));
+  background: linear-gradient(to right, #00b4b1 0%, #026ca8 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: bold;

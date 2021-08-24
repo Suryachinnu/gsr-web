@@ -6,7 +6,7 @@
     padding: 0px;
     position: relative;
   
-    }
+  }
   
   .gsr-content-wrapper .gsr{
       box-sizing: border-box;
@@ -33,7 +33,7 @@
   }
   
   .title{
-    background: linear-gradient(to right,rgb(126, 206, 193),rgb(115, 172, 153),rgb(113, 207, 187));
+    background: linear-gradient(to right, #00b4b1 0%, #026ca8 100%);
    -webkit-text-fill-color: transparent;
    -webkit-background-clip: text;
    margin-bottom: 30px;
