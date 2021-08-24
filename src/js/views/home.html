@@ -3,109 +3,105 @@
  Licensed under The Universal Permissive License (UPL), Version 1.0
  as shown at https://oss.oracle.com/licenses/upl/
  -->
-<div class="oj-hybrid-padding page__padding main">
+<div class="oj-hybrid-padding main">
   <div class="header oj-md-margin-10x-vertical">
-  <h1 class="brand__name">Gyanam, Swasthyam, Repati Ujwala Bhavishyattu Kosam</h1>
-  <div>
-    <div id="filmStripDiv" class="film__strip__outer__container">
-      <div class="filmstrip-wrapper">
-        <oj-film-strip id="filmStrip" 
-            class="filmstrip" 
-            aria-label="Set of chemicals"
-            orientation="vertical"
-            max-items-per-page="1"
-            arrow-visibility="hidden"
-            data-oj-context>
-          <oj-bind-for-each data="[[chemicals]]">
-            <template data-oj-as="chemical">
-              <div class="filmstrip-item oj-text-color-primary"
+    <h1 class="brand__name">Gyanam, Swasthyam, Repati Ujwala Bhavishyattu Kosam</h1>
+    <div>
+      <div id="filmStripDiv" class="film__strip__outer__container">
+        <div class="filmstrip-wrapper">
+          <oj-film-strip id="filmStrip" class="filmstrip" aria-label="Set of chemicals" orientation="vertical"
+            max-items-per-page="1" arrow-visibility="hidden" data-oj-context>
+            <oj-bind-for-each data="[[chemicals]]">
+              <template data-oj-as="chemical">
+                <div class="filmstrip-item oj-text-color-primary"
                   :style.display="[[getItemInitialDisplay(chemical.index)]]">
                   <div class="oj-typography-body-lg">
-                    <span><oj-bind-text value="[[chemical.data.name]]"></oj-bind-text></span>
+                    <span>
+                      <oj-bind-text value="[[chemical.data.name]]"></oj-bind-text>
+                    </span>
                   </div>
                   <div class="oj-sm-padding-10x-top oj-typography-body-lg">
                     <a href="#" target="_blank" class="oj-link-standalone">Explore More</a>
                   </div>
-              </div>
-            </template>
-          </oj-bind-for-each>
-        </oj-film-strip>
-      </div>
-      
-      <div class="paging-container">
-        <oj-paging-control id="pagingControl" 
-            data="[[pagingModel]]"
-            page-size="0"
+                </div>
+              </template>
+            </oj-bind-for-each>
+          </oj-film-strip>
+        </div>
+
+        <div class="paging-container">
+          <oj-paging-control id="pagingControl" data="[[pagingModel]]" page-size="0"
             page-options='{"type": "dots", "orientation": "vertical"}'>
-        </oj-paging-control>
+          </oj-paging-control>
+        </div>
+      </div>
+      <div class="header-content">
+        <div class="video-block">
+        </div>
+        <div class="founders-block"></div>
+      </div>
+
+    </div>
+    <div class="img-bg"></div>
+  </div>
+
+
+  <section class="container ">
+    <div class="wrapper">
+      <div class="block">
+        <span class="span">
+          <div class="bg"></div>
+        </span>
+      </div>
+      <div class="content">
+        <h3>HEALTHCARE</h3>
+        <p>Our goal is to offer reliable, affordable, and quality health care services to the
+          marginalized communities that do not have access to these services. </p>
       </div>
     </div>
-    <div class="header-content">
-      <div class="video-block">
-    </div>
-    <div class="founders-block"></div>
-    </div>
-    
-  </div>
-  <div class="img-bg"></div>
-</div>
-
-
-<section class="container ">
-  <div class="wrapper">
-    <div class="block">
-      <span class="span">
-        <div class="bg"></div>
-      
-      </span>
-    </div>
-    <div class="content">
-      <h3>HEALTHCARE</h3>
-      <p>Our goal is to offer reliable, affordable, and quality health care services to the
-         marginalized communities that do not have access to these services. </p>
-    </div>
-  </div>
-</section>
+  </section>
 
 
 
   <div class="container">
- <div class="row">
-  <div class="col">
-    <div class="education-block">
-    <h1>EDUCATION</h1>
-    <h6>We strive to ensure that every child gets equal learning opportunities 
-      and quality education that makes the future  generation self-reliant.</h6>
-      <img src="css/images/Group_7_Copy-2x.png">
+    <div class="oj-flex">
+      <div class="oj-sm-12 oj-md-12 oj-lg-6  oj-xl-6  oj-flex-item oj-md-padding-10x">
+        <div class="education-block">
+          <h1>EDUCATION</h1>
+          <h6>We strive to ensure that every child gets equal learning opportunities
+            and quality education that makes the future generation self-reliant.</h6>
+          <img src="css/images/Group_7_Copy-2x.png">
+        </div>
+      </div>
+      <div class="oj-sm-12 oj-md-12 oj-lg-6  oj-xl-6  oj-flex-item oj-md-padding-10x">
+        <div class="employment-block">
+
+          <img src="css/images/Group_7-2x.png">
+          <h1 class="mt-5">EMPLOYMENT</h1>
+          <h6>We want to make the youth of our country cross-skilled, employable, and self reliant.</h6>
+        </div>
+      </div>
     </div>
-   </div>
- <div class="col ml-5">
- <div class="employment-block">
-  
-  <img src="css/images/Group_7-2x.png">
- <h1 class="mt-5">EMPLOYMENT</h1>
- <h6>We want to make the youth of our country cross-skilled, employable, and self reliant.</h6>
-    </div>
-  </div>
-  </div>
 
 
-<section class="container mb-4">
-  <div class="content-wrapper">
-    <div class="gsr-block">
-      <span class="gsr-span">
-        <div class="gsr-bg"></div>
-     </span>
-    </div>
-    <div class="content1">
-      <h3>JOIN US</h2>
-      <p>We need supporters, partners, staff, and volunteers like you 
-        who share our commitment to the well being of our society. Every person plays a
-         key role in keeping us working toward this ultimate goal. Are you ready? </p>
-         <br/>
-         <br/>
-         <p>Know More <div class="line"></div></p>
-    </div>
+    <section class="container mb-4">
+      <div class="content-wrapper">
+        <div class="gsr-block">
+          <span class="gsr-span">
+            <div class="gsr-bg"></div>
+          </span>
+        </div>
+        <div class="content1">
+          <h3>JOIN US</h2>
+            <p>We need supporters, partners, staff, and volunteers like you
+              who share our commitment to the well being of our society. Every person plays a
+              key role in keeping us working toward this ultimate goal. Are you ready? </p>
+            <br />
+            <br />
+            <p>Know More
+            <div class="line"></div>
+            </p>
+        </div>
+      </div>
+    </section>
   </div>
-</section>
-</div>

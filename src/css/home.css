@@ -172,36 +172,8 @@ html[dir="rtl"] .paging-container {
   font-weight: bold;
  }
  
- 
- .row{
-  display: flex;
-  margin-left: 70px;
- 
-}
- 
- .education-block{
-  
- width: 550px;
- }
- 
- .education-block img{
-  top: 2306px;
-left: 110px;
-height: 674px;
-width: 565px;
- }
-
- 
-
- .employment-block{ 
-   margin-left: 85px;
-   width: 600px;
- }
- .employment-block img{
-  top: 2306px;
-  left: 110px;
-  height: 674px;
-  width: 565px;
+ .employment-block img,.education-block img{ 
+  width: 100%;
  }
 
 
@@ -281,17 +253,7 @@ width: 565px;
   color: #fff;
 }
 
-@media (min-width: 64em){
-  .content-wrapper .content1{
-    width: 540px;
-    padding: 15px;
-    position: absolute;
-    bottom: -150px;
-    left: 24px;   
-    -webkit-box-align: center;
-    align-items: center;
-  }
-}
+
 
 .line{
   height:1px; background: rgb(8, 63, 100);
@@ -314,31 +276,13 @@ width: 565px;
 }
 .header div .header-content{
   width:100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 .header div .header-content .video-block{
   width:85%;
   height:450px;
   background-size: cover;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-@media (min-width: 1240px){
-  .header .img-bg{
-    position: absolute;
-    /* z-index: -3; */
-    top:0;
-    right: 0;
-    height:600px;
-    width: 600px;
-    background-image:  url('../css/images/circle-bg.png');
-  }
-  .header div .header-content .founders-block{
-    display: block;
-    width: 38%;
-    position: absolute;
-    right: 0px;
-    bottom: -99px;
-    height:400px
-  }
+
 }

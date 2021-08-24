@@ -5,15 +5,16 @@
   Description:
       This is where any of your application specific styles should be included
 */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800&family=Roboto+Condensed:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800&family=Roboto+Condensed:wght@700&display=swap'); */
 @import 'home.css';
 @import 'focus.css';
 @import 'joinus.css';
 @import 'contact.css';
 @import 'about.css';
-body, html{
+@import 'responsive.css';
+/* body, html{
   font-family: 'Montserrat', sans-serif;
-}
+} */
 .sendOffScreen {
   position: absolute;
   left: -10000px;
