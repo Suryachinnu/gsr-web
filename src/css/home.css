@@ -160,9 +160,8 @@ html[dir="rtl"] .paging-container {
     color: rgb(255, 255, 255);
 }
 .wrapper .content p{
-  /* margin: 0px 0px 28px; */
   margin: 0;
-  font-size: 18pt;
+  font-size: 18px;
   line-height: 26pt;
   color: #fff;
 }
@@ -251,9 +250,8 @@ html[dir="rtl"] .paging-container {
     color: rgb(255, 255, 255);
 }
 .content-wrapper .content1 p{
-  /* margin: 0px 0px 28px; */
   margin: 0;
-  font-size: 18pt;
+  font-size: 18px;
   line-height: 26pt;
   color: #fff;
 }

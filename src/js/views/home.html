@@ -22,7 +22,7 @@
                   </div>
                   <div class="oj-sm-padding-10x-top oj-typography-body-lg">
                     <oj-button class="oj-button-sm" chroming="borderless" on-oj-action="[[() => app.routeToPage(chemical.data.link)]]">
-                      <a class="oj-link-standalone">Explore More</a>
+                      <a style="text-decoration: underline;">Explore More</a>
                     </oj-button>
                   </div>
                 </div>
@@ -129,8 +129,11 @@
       <div class="oj-sm-12 oj-md-12 oj-lg-6  oj-xl-6  oj-flex-item oj-md-padding-10x">
         <div class="education-block">
           <h1 class="title__subheading">EDUCATION</h1>
-          <h6>We strive to ensure that every child gets equal learning opportunities
-            and quality education that makes the future generation self-reliant.</h6>
+          <div class="oj-md-padding-5x-bottom oj-lg-padding-10x-bottom" style="font-size: 18px; line-height: 28px;">
+            <span>We strive to ensure that every child gets equal learning opportunities
+              and quality education that makes the future generation self-reliant.</span>
+          </div>
+          
           <img src="css/images/Group_7_Copy-2x.png">
         </div>
       </div>
@@ -139,7 +142,9 @@
 
           <img src="css/images/Group_7-2x.png">
           <h1 class="mt-5 title__subheading">EMPLOYMENT</h1>
-          <h6>We want to make the youth of our country cross-skilled, employable, and self reliant.</h6>
+          <div class="oj-md-padding-5x-bottom oj-lg-padding-10x-bottom" style="font-size: 18px; line-height: 28px;">
+            <span>We want to make the youth of our country cross-skilled, employable, and self reliant.</span>
+          </div>
         </div>
       </div>
     </div>
@@ -158,9 +163,9 @@
               key role in keeping us working toward this ultimate goal. Are you ready? </p>
             <br />
             <br />
-            <p>Know More
-            <div class="line"></div>
-            </p>
+            <oj-button class="oj-button-sm" chroming="borderless" on-oj-action="[[() => app.routeToPage('joinus')]]">
+              <a style="color: #fff; text-decoration: underline;">Explore More</a>
+            </oj-button>
         </div>
       </div>
     </section>

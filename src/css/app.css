@@ -38,7 +38,9 @@ h1, H1 {
 .gsr-icon {
   width: 137px !important;
   height: 60px !important;
+  cursor: pointer;
 }
+
 .gsr-icon:before {
   content: url(images/gsr_logo.svg);
 }
