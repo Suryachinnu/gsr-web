@@ -8,7 +8,7 @@
 /*
  * Your home ViewModel code goes here
  */
-define(['../accUtils', 'appController', 'knockout', 'ojs/ojcontext', 'ojs/ojknockout', 'ojs/ojfilmstrip', 'ojs/ojpagingcontrol'],
+define(['../accUtils', 'appController', 'knockout', 'ojs/ojcontext', 'ojs/ojknockout', 'ojs/ojfilmstrip', 'ojs/ojpagingcontrol', 'ojs/ojavatar', 'ojs/ojdialog'],
  function(accUtils, _app, ko, Context) {
     function HomeViewModel() {
       var that = this;
@@ -18,9 +18,12 @@ define(['../accUtils', 'appController', 'knockout', 'ojs/ojcontext', 'ojs/ojknoc
             { name: 'Laying the foundation for a better tomorrow', link: 'about' },
             { name: 'Change Starts with You', link: 'joinus' },
             { name: 'Singular focus on the welfare of the nation ', link: 'focus' }];
-      that.goToPage = (event) => {
-        console.log(event)
-        that.router.go({path: 'about'});
+      that.openVideo = () => {
+        document.querySelector("#dialog1").open();
+      }
+      that.closeVideo = () => {
+        document.querySelector("#videoContainer").pause();
+        document.querySelector("#dialog1").close();
       }
       that.connected = () => {
         accUtils.announce('Home page loaded.', 'assertive');

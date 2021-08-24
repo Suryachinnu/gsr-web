@@ -39,16 +39,21 @@
       </div>
       <div class="header-content">
         <div class="video-block">
-          <div class="youtube-link oj-flex">
-           
-              <oj-button id="icon_button1" display='icons' chroming="borderless" color="blue">Icon Button
-                <span slot='startIcon' class="oj-ux-ico-play"></span>
-             </oj-button>
-            
-            <span class="oj-padding-5x-right">
-              Introduction to GSR Charitable Trust
-            </span>
-           
+          
+          <div class="youtube-link">
+            <div class="oj-flex oj-sm-align-items-center">
+              <div class="oj-flex-item oj-sm-padding-2x-horizontal">
+                <oj-avatar id='openPreview' role="img" background='lilac' icon-class='oj-ux-ico-play' shape='circle' on-click="[[openVideo]]"></oj-avatar>
+                <!-- <oj-button id="icon_button1" display='icons' chroming="borderless" color="blue">
+                  
+                </oj-button> -->
+              </div>
+              <div class="oj-flex-item oj-sm-padding-2x-horizontal">
+                <span class="oj-padding-5x-right">
+                Introduction to GSR Charitable Trust
+                </span>
+              </div>
+            </div>           
           </div>
         </div>
         <div class="founders-block"></div>
@@ -118,3 +123,17 @@
       </div>
     </section>
   </div>
+
+<div id="dialogWrapper">
+  <oj-dialog id="dialog1" dialog-title="GSR Vision" cancel-behavior="none">
+      <div slot="body">
+        <video id="videoContainer" width="500" controls>
+          <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+      </div>
+      <div slot="footer">
+        <oj-button id="okButton" chroming="borderless" on-oj-action="[[closeVideo]]">Close</oj-button>
+      </div>
+  </oj-dialog>
+</div>

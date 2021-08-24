@@ -285,3 +285,16 @@ html[dir="rtl"] .paging-container {
   font-weight: 600;
   color: #fff;
 }
+
+.oj-avatar-bg-lilac, .oj-icon-circle-lilac .oj-icon-circle-inner {
+  background-color: #fff
+}
+.oj-avatar-bg-lilac .oj-avatar-background, .oj-icon-circle-lilac .oj-icon-circle-inner .oj-avatar-background {
+  background-image: none;
+}
+.oj-ux-ico-play:before {
+  color: #145e96;
+}
+.oj-dialog-header {
+  background-image: none;
+}
