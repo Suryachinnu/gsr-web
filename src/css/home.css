@@ -6,8 +6,9 @@
 .filmstrip-item {
     box-sizing: border-box;
     width: auto;
-    --oj-typography-body-lg-font-size: 17pt;
-    font-weight: 600;
+    --oj-typography-body-lg-font-size: 17px;
+    font-weight: 500;
+    color: #000000
 }
 
 .filmstrip-wrapper {
@@ -16,9 +17,12 @@
   
 .home__content-span-1{
   margin-top: -200px;
+  font-size: 18px;
+  line-height: 28px;
 }
 .home__content-font-size{
   font-size: 16px;
+  line-height: 28px;
 }
 .home__content{
   font-family: 'Montserrat', sans-serif;

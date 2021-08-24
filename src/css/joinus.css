@@ -6,6 +6,11 @@
     height: 600px;
     background-position: center;
 }
+.contact__fs-lh-17-28{
+    font-size: 17px;
+    line-height: 28px;
+    color: rgb(0, 0, 0);
+}
 @media screen and (max-width: 1024px) {
     .join__hand__image{
         height: 400px;

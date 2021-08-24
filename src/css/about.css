@@ -42,9 +42,9 @@
   
   
   .sub-content{
-    font-size: 15pt;
+    font-size: 17px;
     margin-bottom: 45px;
-    line-height: 25px;
+    line-height: 26px;
     /* font-family: 'Roboto Condensed', sans-serif; */
   }
   
@@ -102,10 +102,9 @@
   }
   
   .gsr-content-wrapper .gsr p{
-    /* margin: 0px 0px 28px; */
     margin: 0;
-    font-size: 18pt;
-    line-height: 26pt;
+    font-size: 18px;
+    line-height: 28px;
     color: #fff;
   }
   @media (min-width: 64em){
@@ -121,14 +120,13 @@
   }
   
   .content-gsr {
-    
     margin-top: 120px;
+    font-size: 16px;
+    line-height: 28px;
   }
   
   .content-gsr p{
-   
     margin-top: 50px;
-    
   }
 .gsr-content-wrapper1{
     box-sizing: border-box;
@@ -239,8 +237,8 @@
   .gsr-content-wrapper1 .gsr1 p{
     /* margin: 0px 0px 28px; */
     margin: 0;
-    font-size: 18pt;
-    line-height: 26pt;
+    font-size: 18px;
+    line-height: 28px;
     color: #fff;
   }
   @media (min-width: 64em){
