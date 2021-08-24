@@ -237,6 +237,10 @@ html[dir="rtl"] .paging-container {
   line-height: 26pt;
   color: #fff;
 }
+.home.title{
+  width:65%;
+  max-width: 800px;
+}
 
 
 
@@ -270,4 +274,14 @@ html[dir="rtl"] .paging-container {
   z-index: 2;
   position: relative;
   background-size: cover;
+}
+.youtube-link{
+  position: absolute;
+    bottom: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+.youtube-link span{
+  font-weight: 600;
+  color: #fff;
 }
