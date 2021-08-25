@@ -21,6 +21,13 @@
     background-image: url(images/focus_2.png);
     
 }
+
+/* @media  only screen and (max-width: 500px){
+    .img-bg-health{
+        background-image: url(images/focus_2.png) !important;
+          width: auto;
+    }      
+} */
 .img-bg-education{
     background-image: url('images/focus_3.png');
 }
@@ -55,6 +62,32 @@
         display: none;
     }
     
+}
+@media screen and (max-width:700px) {
+    .focus__founder{
+        font-size: 12px !important;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .oj-flex span {
+        font-size: 12px !important;
+        margin: auto !important;
+       
+    }
+}
+@media screen and (max-width: 700px) {
+.brand__name {
+    font-size:15px !important;
+   
+}
+}
+@media screen and (max-width: 700px) {
+    .img-bg-health{
+      width: 100% !important;
+     
+        
+    }
 }
 .focus__bg-color {
     background-color: #00b4b1;

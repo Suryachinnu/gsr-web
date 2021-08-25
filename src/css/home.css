@@ -324,3 +324,10 @@ html[dir="rtl"] .paging-container {
   background-color: #bbb;
   border: none;
 }
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 18px !important;
+    margin: auto !important;
+  }
+}

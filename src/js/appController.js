@@ -46,6 +46,7 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
         { path: 'about', detail: { label: 'About Us', iconClass: 'oj-ux-ico-fire' } },
         { path: 'focus', detail: { label: 'Our Focus Area', iconClass: 'oj-ux-ico-contact-group' } },
         { path: 'contact', detail: { label: 'Contact Us', iconClass: 'oj-ux-ico-information-s' } },
+        
       ];
 
       // Router setup
@@ -60,7 +61,7 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
 
       // Setup the navDataProvider with the routes, excluding the first redirected
       // route.
-      this.navDataProvider = new ArrayDataProvider(navData1, {keyAttributes: "path"});
+      this.navDataProvider = new ArrayDataProvider(navData1, {keyAttributes: "path" });
 
       // Drawer
       // Close offcanvas on medium and larger screens
