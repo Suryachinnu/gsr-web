@@ -20,7 +20,7 @@
       justify-content: space-between;
       align-items: flex-start;
   }
-  
+   
   .gsr-content-wrapper .img-block{
     position: relative;
   }
@@ -32,6 +32,12 @@
     content: "";
   }
   
+  .about__content{
+    padding-top: 34px;
+  }
+  .about__content-1{
+    padding-top: 49px;
+  }
   .title{
     background: linear-gradient(to right, #00b4b1 0%, #026ca8 100%);
    -webkit-text-fill-color: transparent;

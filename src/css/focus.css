@@ -2,7 +2,7 @@
     background-repeat: no-repeat;
     background-size: inherit; 
     height: 674px;
-    background-position: center;
+    background-position: start;
 }
 
 .focus__span-fw-18 span {
@@ -13,7 +13,7 @@
 .focus__founder {
     font-family: 'Montserrat';
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bold; 
     color: rgba(0, 180, 177, 1);
     line-height: 28px;
 }
@@ -43,6 +43,11 @@
     background-repeat: no-repeat;
 }
 
+
+.focus__education{
+    padding-bottom: 160px;
+    padding-top: 100px;
+}
 @media screen and (max-width: 1600px) {
     .img-bg-1 {
         width: 320px !important;
