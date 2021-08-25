@@ -68,8 +68,9 @@
          ** query size for a phone format and hidden until a user clicks on
          ** the header hamburger icon.
       -->
-      <div id="navDrawer" role="navigation" class="oj-contrast-marker oj-web-applayout-offcanvas oj-offcanvas-start">
-        <oj-navigation-list id="navDrawerList" data="[[navDataProvider]]"
+      <div id="navDrawer" role="navigation" class="oj-contrast-marker oj-web-applayout-offcanvas oj-offcanvas-start nav_bg">
+        <oj-navigation-list id="navDrawerList" 
+                            data="[[navDataProvider]]"
                             edge="start"
                             item.renderer="[[KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
                             on-click="[[toggleDrawer]]"

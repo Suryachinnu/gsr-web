@@ -20,7 +20,7 @@
       justify-content: space-between;
       align-items: flex-start;
   }
-   
+    
   .gsr-content-wrapper .img-block{
     position: relative;
   }
@@ -257,4 +257,25 @@
       -webkit-box-align: center;
       align-items: center;
   }
+  }
+
+  @media screen and (max-width: 769px) {
+    .sub-content{
+      font-size: 14px !important;
+    }
+
+    .about__content-1{
+      font-size: 14px !important;
+    }
+
+    .about__content{
+      font-size: 14px !important;
+    }
+
+    .sai{
+      font-size: 14px !important;
+    }
+    .our{
+      font-size: 14px !important;
+    }
   }

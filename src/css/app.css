@@ -96,7 +96,7 @@ a.oj-navigationlist-item-content > .oj-navigationlist-item-label {
 .join__us__footer > button.oj-button-button {
   border-radius: 1.32rem;
   width: 125px;
-  height: 45px;
+  height: 45px; 
   background-color: #FFFFFF !important;
   color: #005195 !important;
 }
@@ -104,11 +104,23 @@ a.oj-navigationlist-item-content > .oj-navigationlist-item-label {
   border: 0;
 }
 
+.nav_bg {
+  background-color: white;
+}
+
 .title__subheading {
   font-family: 'Montserrat', sans-serif;
   font-size: 18pt;
 }
 
+@media screen and (max-width: 769px){
+  .title__subheading{
+    font-size: 14px !important;
+  } 
+  .title {
+    font-size: 16px !important;
+  }
+}
   /* Medium and large Screens */
 @media screen and (min-width: 769px) {
   .page__padding {
