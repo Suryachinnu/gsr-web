@@ -37,14 +37,14 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
         { path: '', redirect: 'home' },
         { path: 'home', detail: { label: 'Home', iconClass: 'oj-ux-ico-bar-chart' } },
         { path: 'about', detail: { label: 'About Us', iconClass: 'oj-ux-ico-fire' } },
-        { path: 'focus', detail: { label: 'Our Focus Area', iconClass: 'oj-ux-ico-contact-group' } },
+        { path: 'focus', detail: { label: 'Our Focus Areas', iconClass: 'oj-ux-ico-contact-group' } },
         { path: 'contact', detail: { label: 'Contact Us', iconClass: 'oj-ux-ico-information-s' } },
         { path: 'joinus', detail: { label: 'Join Us', iconClass: 'oj-ux-ico-information-s' } }
       ];
       let navData1 = [
         { path: 'home', detail: { label: 'Home', iconClass: 'oj-ux-ico-bar-chart' } },
         { path: 'about', detail: { label: 'About Us', iconClass: 'oj-ux-ico-fire' } },
-        { path: 'focus', detail: { label: 'Our Focus Area', iconClass: 'oj-ux-ico-contact-group' } },
+        { path: 'focus', detail: { label: 'Our Focus Areas', iconClass: 'oj-ux-ico-contact-group' } },
         { path: 'contact', detail: { label: 'Contact Us', iconClass: 'oj-ux-ico-information-s' } },
       ];
 
@@ -66,7 +66,7 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
       // Close offcanvas on medium and larger screens
       this.mdScreen.subscribe(() => {OffcanvasUtils.close(this.drawerParams);});
       this.drawerParams = {
-        displayMode: 'push',
+        displayMode: 'overlay',
         selector: '#navDrawer',
         content: '#pageContent'
       };
