@@ -53,13 +53,11 @@
         width: 320px !important;
         background-size: auto;
     }
-    
 }
 @media screen and (max-width: 1145px) {
     .img-bg-1 {
         display: none;
-    }
-    
+    }   
 }
 .focus__bg-color {
     background-color: #00b4b1;
