@@ -17,6 +17,12 @@
     color: rgba(0, 180, 177, 1);
     line-height: 28px;
 }
+
+.linear__gradient{
+    background: linear-gradient(to right, #00b4b1 0%, #026ca8 31%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 .img-bg-health{
     background-image: url(images/focus_2.png);
     
