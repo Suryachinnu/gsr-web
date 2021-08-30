@@ -72,3 +72,9 @@
         height: 674px !important;
     }
 }
+
+@media screen and (max-width: 600px) {
+.brand__name h1 {
+ font-size: 10px;
+}
+}
