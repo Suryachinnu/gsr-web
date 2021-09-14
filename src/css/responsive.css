@@ -1,0 +1,45 @@
+
+/* for large desktops */
+@media (min-width: 64em){
+    .wrapper .content{
+        width: 500px;
+        padding: 15px;
+        position: absolute;
+        bottom: -80px;
+        left: 24px;   
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+}
+@media (min-width: 1240px){
+    .header .img-bg{
+      position: absolute;     
+      background-size:cover;
+      background-image:  url('../css/images/circle-bg.png');
+      top: 119px;
+    width: 600px;
+    height: 600px;
+    right: -114px;
+    z-index: 1;
+    }
+    .header div .header-content .founders-block{
+        display: block;
+        position: absolute;
+        right: 0px;
+        bottom: -199px;
+        height: 550px;
+        background-size: cover;
+        width: 400px;
+        z-index: 2;
+    }
+    .content-wrapper .content1{
+        width: 540px;
+        padding: 15px;
+        position: absolute;
+        bottom: -150px;
+        left: 24px;   
+        -webkit-box-align: center;
+        align-items: center;
+      }
+  }
