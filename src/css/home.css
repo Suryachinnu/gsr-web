@@ -56,7 +56,7 @@ html[dir="rtl"] .paging-container {
 .film__strip__outer__container {
     display: inline-block;
     position: relative;
-    padding-inline-end: 10rem;
+    /* padding-inline-end: 10rem; */
 }
 .oj-pagingcontrol-nav-dot-bullet.oj-selected, .oj-pagingcontrol-nav-dot-bullet.oj-hover {
   background-color: #145e96;
@@ -270,12 +270,14 @@ html[dir="rtl"] .paging-container {
 
 .header .video-block{
   background-image:  url('../css/images/hands.png');
+  
 }
 .header .founders-block{
   background-image:  url('../css/images/founder.png');
+ 
 }
 .header div .header-content{
-  width:100%;
+  width:85%;
   margin-top: 0px;
   margin-bottom: 250px;
 
