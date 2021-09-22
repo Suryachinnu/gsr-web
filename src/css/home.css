@@ -192,7 +192,7 @@ html[dir="rtl"] .paging-container {
     box-sizing: border-box;
     width: 100%;
     padding: 20px 15px 0px;
-    margin: 0px auto;
+    margin: 90px auto;
     max-width: 1440px;
     /* display: ; */
      flex-flow: row nowrap;
