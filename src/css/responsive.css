@@ -12,6 +12,45 @@
     }
 
 }
+
+@media (min-width:996px) and (max-width:1240px) {
+    .header .img-bg {
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('../css/images/circle-bg.png');
+        top: 170px;
+        width: 400px;
+        height: 400px;
+        right: 0;
+        z-index: 1;
+    }
+    .header div .header-content .founders-block{
+        display: block;
+        position: absolute;
+        right: 33px;
+        bottom: -250px;
+        background-repeat: no-repeat;
+        height: 508px;
+        background-size: 100%;
+        width: 324px;
+        z-index: 2;
+}
+.header div .header-content .video-block {
+    width: 95%;
+    height: 350px;
+    z-index: 2;
+    position: relative;
+    background-size: cover;
+}
+.header div .header-content {
+    margin-bottom: 150px;
+}
+.header{
+    padding: 0 40px;
+  }
+} 
+
 @media (min-width: 1240px){
     .header .img-bg{
       position: absolute;     
